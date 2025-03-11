@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4d04e;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 384px;
+    height: 522px;
+    margin: 219px auto;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px;
+}
+
+.img-container {
+    border-radius: 10px;
+    margin: 24px;
+    width: 336px;
+    height: 200px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 24px;
+    width: 336px;
+    height: 194px;
+
+}
+
+.learning-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4d04e;
+    width: 82px;
+    height: 29px;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+    height: 32px;
+    margin: 24px 0px 24px 24px;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.text-2 {
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6b;
+}
+
+.text-3 {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.text-3-bold {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #f4d04e;
+}
+
+@media (max-width: 375px) {
+    .card-container {
+        width: 327px;
+        height: 501px;
+    }
+
+    .img-container {
+        width: 279px;
+        height: 200px;
+    }
+
+    .content-container {
+        width: 279px;
+        height: 173px;
+    }
+
+    .learning-container {
+        width: 73px;
+        height: 26px;
+    }
+
+    .author {
+        width: 129px;
+        height: 32px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text-2 {
+        font-size: 14px;
+    }
+
+    .text-3 {
+        font-size: 12px;
+    }
+
+    .text-3-bold {
+        font-size: 12px;
+    }
+}
